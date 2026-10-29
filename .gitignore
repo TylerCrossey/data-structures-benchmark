@@ -66,3 +66,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# build outputs with no extension (Linux/macOS/WSL builds)
+list_bench
+hash_bench
+
+# instructor-provided input data
+*-idr
+
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
