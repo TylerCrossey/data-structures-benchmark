@@ -96,7 +96,7 @@ Behavior:
 
 ## Results
 
-Measured on [AMD Ryzen 7 5800X / 16 GB RAM / Windows 10], g++ 14.2.0, flags `-std=c++17 -O2`. Each time is the median of 3 runs, measured with `clock()`. Timing includes reading and parsing the input file for both programs.
+Measured on AMD Ryzen 7 5800X / 16 GB RAM / Windows 10, g++ 14.2.0, flags `-std=c++17 -O2`. Each time is the median of 3 runs, measured with `clock()`. Timing includes reading and parsing the input file for both programs.
 
 | Operations (N) | Linked list (s) | Hash table (s) | Hash table speedup |
 |---------------:|----------------:|---------------:|-------------------:|
